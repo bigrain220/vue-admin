@@ -1,0 +1,63 @@
+.el-table thead.has-gutter {
+  background: #f5f7fa;
+  color:#333;
+}
+.el-table tr {background:none !important;}
+.el-popover.el-popper {
+    height: 100%;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+.el-popover .el-popover__title {
+   padding: 15px 20px;
+     background: #E5E9F2;
+     font-weight: bold;
+}
+.el-popover .close {font-size:24px; position: absolute; top:10px; right:20px; cursor: pointer;}
+.el-popover .close:hover {color:#409EFF;}
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 140px;
+    height: 140px;
+  }
+  .avatar-uploader .el-upload:hover {
+     border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+   font-size: 28px;
+    color: #8c939d;
+    width: 140px;
+    height: 140px;
+    line-height: 140px!important;
+    text-align: center;
+  }
+  .avatar-uploader-icon:hover {color:#409EFF;}
+  .avatar-uploader .el-upload__tip {margin-top: 0px; line-height: 1;}
+  .avatar {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+  }
+  .el-form.search {height: 40px;padding-top: 10px;margin-left: 10px;float:left;line-height: 40px;}
+  .el-form-item__label{font-weight: bold;}
+
+.toolbar {
+    height: 60px;
+    background: #fff;
+    margin-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 5px solid #409EFF;
+    line-height: 60px;
+    padding-left: 10px;
+}
+.mumanage .box .el-input-group__prepend {width:60px !important; background:#fff;}
